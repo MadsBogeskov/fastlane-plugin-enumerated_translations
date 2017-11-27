@@ -16,7 +16,6 @@ module Fastlane
         keys = []
         values = []
         while (line = file.gets)
-          puts line
           withoutSemicolon = line.chop().split(' = ')
           keys.push(withoutSemicolon[0].chop().tr('"', ''))
           values.push(withoutSemicolon[1].tr('";', ''))
