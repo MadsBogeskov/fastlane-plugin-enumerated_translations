@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'mads@bogeskov.net'
 
   spec.summary       = 'Converts a strings file to an enum, to make it more safe to access translations.'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-enumerated_translations"
+  spec.homepage      = "https://github.com/MadsBogeskov/fastlane-plugin-enumerated_translations"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
